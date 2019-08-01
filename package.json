@@ -4,10 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "start": "json-server -p 3001 -w db.json"
   },
   "author": "Panos K.",
   "license": "ISC",
